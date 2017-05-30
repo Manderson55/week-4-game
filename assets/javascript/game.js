@@ -72,7 +72,7 @@ function reset(){
 $(document).ready(function(){ //make sure the html is loaded before the user clicks to start the game
 
     $("#startGame").click(function(){
-	getRandomNumber(19, 50); // call the function the get the random number the user will try to match
+	getRandomNumber(19, 120); // call the function the get the random number the user will try to match
 	console.log(computerGuess);
     console.log(overTheNumber);
 	$("#yourNumber").html(computerGuess);//write the number to be guessed on the page
