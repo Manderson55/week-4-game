@@ -1,0 +1,23 @@
+<style>
+
+h1 {
+   text-align:center; 
+}
+.jumbotron {
+	text-align: center;
+}
+
+.jumbotron p {
+	font-size: 15px;
+}
+body {
+    background-image: url("../images/diamonds-bg.jpg");
+}
+
+.col-md-3 {
+	font-size: 26px;
+	font-weight: bold;
+	text-align: center;
+}
+
+</style>

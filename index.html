@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Crystal Collector</title>
+   <!-- Bootstrap File -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+  <script type="text/javascript" src = "assets/javascript/game.js"></script>
+
+</head>
+
+<body>
+<div class="container">
+   <div class="jumbotron">
+      <h1>Crystal Collector</h1>
+
+        <p>You will be given a random number when you click start playing</p>
+        <p>There are four crystals below. Each crystal will be assigned a random value from 1 to 12</p>
+        <p>When you click on a crystal you will add that value to your total score</p> 
+        <p>You win the game by matching your total score to the random number, if you go over, you loose!</p>
+        <p>Each time the game starts, the values for the crystals will change</p>
+        <p>Good luck!</p>
+      </ul>
+      <button id ="startGame" class="btn btn-warning btn-lg" >Start Playing</button>
+  </div>
+</div>
+  <div class="container">
+
+    <div class="row">
+
+        <div class="col-md-3" height= "300px"><p class="bg-info">Your number</p>
+        <p class="bg-info" id="yourNumber">
+        </div>
+
+        <div class="col-md-3"> <p class="bg-success">User Score</p>
+        <p class= "bg-success" id="userScore"></p>
+        </div>
+
+        <div class="col-md-3" ><img class="gem" id="gem1" cvalue = "0" src="assets/images/pink_gem.jpeg" width="100px" height="100px" ></img><img class="gem" id="gem2" value = "0"src="assets/images/blue_gem.jpeg" width="100px" height="100px" ></img><img class="gem" id="gem3" value = "0" src="assets/images/red_gem.jpeg" width="100px" height="100px" ></img><img class="gem" id="gem4" value = "0" src="assets/images/clear_gem.jpeg" width="100px" height="100px" ></img></div>
+
+        <div class="col-md-3"> <p class="bg-danger">Messages</p>
+        <p class="bg-danger" id="totalWins"></p>
+        <p class="bg-danger" id="totalLosses"></p>
+        <p class="bg-danger" id="messages"></p>
+        </div>
+  
+    </div>
+  </div>
+
+
+</body>
+</html>
